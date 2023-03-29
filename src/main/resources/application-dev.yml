@@ -1,0 +1,22 @@
+#开发环境
+server:
+  port: 82
+#log
+logging:
+  #设置分组
+  group:
+    ebank: com.mgr.thoseyears0_1.controller,com.mgr.thoseyears0_1.dao
+    iservice: com.alibaba
+  level:
+    root: info
+    ebank: warn
+    #日志格式
+  pattern:
+    console: "%d %clr(%5p) --- [%16t] %clr(%-40.40c){cyan} : %m %n"
+  file:
+    name: server.log
+  logback:
+    rollingpolicy:
+      max-file-size: 5MB
+      file-name-pattern: server.%d{yyyy-MM-dd}.%i.log
+

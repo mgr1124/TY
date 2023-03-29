@@ -1,0 +1,7 @@
+#应用环境
+spring:
+  profiles:
+    active: @profile.active@
+    group:
+      "dev": devDB,devother
+      "pro":
