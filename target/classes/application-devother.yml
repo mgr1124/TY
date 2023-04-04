@@ -7,7 +7,11 @@ servers:
   dataSize: 1024
 
 datasource:
-  driverClassName: com.mysql.jdbc.Driver456
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/dash
+  username: root
+  password: root
+  type: com.alibaba.druid.pool.DruidDataSource
 
 test:
   prop: testValue
