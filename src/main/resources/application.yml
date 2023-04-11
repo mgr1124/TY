@@ -5,3 +5,5 @@ spring:
     group:
       "dev": devDB,devother
       "pro":
+      "test":
+
