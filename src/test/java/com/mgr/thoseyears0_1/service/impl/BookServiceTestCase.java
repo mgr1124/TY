@@ -29,4 +29,10 @@ public class BookServiceTestCase {
         bookDao.selectPage(page,null);
 
     }
+    @Test
+    public void getone(){
+        Integer id = 1 ;
+        Book book = bookserviceimpl.getById(id);
+        System.out.println(book);
+    }
 }
