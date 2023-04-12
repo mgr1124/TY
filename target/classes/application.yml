@@ -1,7 +1,7 @@
 #应用环境
 spring:
   profiles:
-    active: test
+    active: dev
     group:
       "dev": devDB,devother
       "pro":

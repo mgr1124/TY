@@ -10,6 +10,7 @@ public class Address {
     private String addrId;
     private Integer userId;
     private String addrLinkman;
+    private String addrTelephone;
     private String addrDes;
     private String addrTag;
 }

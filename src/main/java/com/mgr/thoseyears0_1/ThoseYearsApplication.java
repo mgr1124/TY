@@ -2,6 +2,7 @@ package com.mgr.thoseyears0_1;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.mgr.thoseyears0_1.config.ServerConfig;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -10,6 +11,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
+@MapperScan("com.mgr.thoseyears0_1.dao")
 //@EnableConfigurationProperties(ServerConfig.class) //和server 中 @Component 只能用一个
 public class ThoseYearsApplication {
     @Bean

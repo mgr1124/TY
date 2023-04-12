@@ -1,0 +1,162 @@
+2023-04-12T08:31:59.765+08:00  INFO 10956 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Starting ThoseYearsApplication using Java 20 with PID 10956 (E:\IDEA\ideaproject\ThoseYears0_1\target\classes started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-12T08:31:59.766+08:00  INFO 10956 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-12T08:32:00.601+08:00  INFO 10956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 82 (http)
+2023-04-12T08:32:00.609+08:00  INFO 10956 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-12T08:32:00.609+08:00  INFO 10956 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-12T08:32:00.666+08:00  INFO 10956 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-12T08:32:00.666+08:00  INFO 10956 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 873 ms
+2023-04-12T08:32:01.287+08:00  INFO 10956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 82 (http) with context path ''
+2023-04-12T08:32:01.295+08:00  INFO 10956 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Started ThoseYearsApplication in 1.862 seconds (process running for 2.413)
+2023-04-12T08:33:34.692+08:00  INFO 10956 --- [http-nio-82-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-12T08:33:34.692+08:00  INFO 10956 --- [http-nio-82-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-12T08:33:34.693+08:00  INFO 10956 --- [http-nio-82-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-12T08:33:34.765+08:00  INFO 10956 --- [http-nio-82-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-04-12T08:34:34.994+08:00  INFO 10956 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-04-12T08:34:34.996+08:00  INFO 10956 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-04-12T08:34:39.384+08:00  INFO 15560 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Starting ThoseYearsApplication using Java 20 with PID 15560 (E:\IDEA\ideaproject\ThoseYears0_1\target\classes started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-12T08:34:39.386+08:00  INFO 15560 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-12T08:34:40.123+08:00  INFO 15560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 82 (http)
+2023-04-12T08:34:40.131+08:00  INFO 15560 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-12T08:34:40.131+08:00  INFO 15560 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-12T08:34:40.185+08:00  INFO 15560 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-12T08:34:40.186+08:00  INFO 15560 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 774 ms
+2023-04-12T08:34:40.727+08:00  INFO 15560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 82 (http) with context path ''
+2023-04-12T08:34:40.733+08:00  INFO 15560 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Started ThoseYearsApplication in 1.629 seconds (process running for 2.134)
+2023-04-12T08:35:07.168+08:00  INFO 16380 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Starting OrderServiceTestCase using Java 20 with PID 16380 (started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-12T08:35:07.169+08:00  INFO 16380 --- [main] c.m.t.service.impl.OrderServiceTestCase  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-12T08:35:08.656+08:00  INFO 16380 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Started OrderServiceTestCase in 1.772 seconds (process running for 3.078)
+2023-04-12T08:35:09.135+08:00  INFO 16380 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-04-12T08:35:09.563+08:00  INFO 16380 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-04-12T08:35:09.566+08:00  INFO 16380 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-04-12T08:35:48.757+08:00  INFO 23632 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Starting OrderServiceTestCase using Java 20 with PID 23632 (started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-12T08:35:48.758+08:00  INFO 23632 --- [main] c.m.t.service.impl.OrderServiceTestCase  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-12T08:35:50.043+08:00  INFO 23632 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Started OrderServiceTestCase in 1.535 seconds (process running for 2.221)
+2023-04-12T08:35:50.444+08:00  INFO 23632 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-04-12T08:35:50.819+08:00  INFO 23632 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-04-12T08:35:50.822+08:00  INFO 23632 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-04-12T08:38:23.839+08:00  INFO 21604 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Starting OrderServiceTestCase using Java 20 with PID 21604 (started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-12T08:38:23.840+08:00  INFO 21604 --- [main] c.m.t.service.impl.OrderServiceTestCase  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-12T08:38:24.757+08:00  WARN 21604 --- [main] c.b.m.core.injector.DefaultSqlInjector   : class com.mgr.thoseyears0_1.domain.Order ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-04-12T08:38:25.122+08:00  INFO 21604 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Started OrderServiceTestCase in 1.54 seconds (process running for 2.253)
+2023-04-12T08:38:25.433+08:00  INFO 21604 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2023-04-12T08:39:32.494+08:00  INFO 14744 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Starting OrderServiceTestCase using Java 20 with PID 14744 (started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-12T08:39:32.495+08:00  INFO 14744 --- [main] c.m.t.service.impl.OrderServiceTestCase  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-12T08:39:33.901+08:00  INFO 14744 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Started OrderServiceTestCase in 1.689 seconds (process running for 2.406)
+2023-04-12T08:39:34.326+08:00  INFO 14744 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-04-12T08:39:34.751+08:00  INFO 14744 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-04-12T08:39:34.755+08:00  INFO 14744 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-04-12T08:39:45.124+08:00  INFO 15560 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2023-04-12T08:40:31.956+08:00  INFO 13776 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Starting OrderServiceTestCase using Java 20 with PID 13776 (started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-12T08:40:31.957+08:00  INFO 13776 --- [main] c.m.t.service.impl.OrderServiceTestCase  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-12T08:40:33.416+08:00  INFO 13776 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Started OrderServiceTestCase in 1.754 seconds (process running for 2.497)
+2023-04-12T08:40:33.863+08:00  INFO 13776 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-04-12T08:40:34.269+08:00  INFO 13776 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-04-12T08:40:34.272+08:00  INFO 13776 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-04-12T08:41:38.031+08:00  INFO 22336 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Starting OrderServiceTestCase using Java 20 with PID 22336 (started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-12T08:41:38.032+08:00  INFO 22336 --- [main] c.m.t.service.impl.OrderServiceTestCase  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-12T08:41:39.501+08:00  INFO 22336 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Started OrderServiceTestCase in 1.709 seconds (process running for 2.464)
+2023-04-12T08:41:39.925+08:00  INFO 22336 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-04-12T08:41:40.304+08:00  INFO 22336 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-04-12T08:41:40.307+08:00  INFO 22336 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-04-12T08:41:48.460+08:00  INFO 6884 --- [main] c.m.t.service.impl.UserServiceTestCase   : Starting UserServiceTestCase using Java 20 with PID 6884 (started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-12T08:41:48.461+08:00  INFO 6884 --- [main] c.m.t.service.impl.UserServiceTestCase   : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-12T08:41:49.788+08:00  INFO 6884 --- [main] c.m.t.service.impl.UserServiceTestCase   : Started UserServiceTestCase in 1.558 seconds (process running for 2.181)
+2023-04-12T08:41:50.141+08:00  INFO 6884 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-04-12T08:41:50.476+08:00  INFO 6884 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-04-12T08:41:50.478+08:00  INFO 6884 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-04-12T08:53:54.578+08:00  INFO 9532 --- [main] c.m.t.service.impl.UserServiceTestCase   : Starting UserServiceTestCase using Java 20 with PID 9532 (started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-12T08:53:54.579+08:00  INFO 9532 --- [main] c.m.t.service.impl.UserServiceTestCase   : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-12T08:53:56.055+08:00  INFO 9532 --- [main] c.m.t.service.impl.UserServiceTestCase   : Started UserServiceTestCase in 1.736 seconds (process running for 2.427)
+2023-04-12T08:53:56.427+08:00  INFO 9532 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-04-12T08:53:56.842+08:00  INFO 9532 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-04-12T08:53:56.845+08:00  INFO 9532 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-04-12T08:57:15.660+08:00  INFO 18744 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Starting OrderServiceTestCase using Java 20 with PID 18744 (started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-12T08:57:15.661+08:00  INFO 18744 --- [main] c.m.t.service.impl.OrderServiceTestCase  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-12T08:57:17.176+08:00  INFO 18744 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Started OrderServiceTestCase in 1.779 seconds (process running for 2.444)
+2023-04-12T08:57:17.541+08:00  INFO 18744 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-04-12T08:57:17.911+08:00  INFO 18744 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-04-12T08:57:17.913+08:00  INFO 18744 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-04-12T08:57:54.341+08:00  INFO 20004 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Starting OrderServiceTestCase using Java 20 with PID 20004 (started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-12T08:57:54.342+08:00  INFO 20004 --- [main] c.m.t.service.impl.OrderServiceTestCase  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-12T08:57:55.290+08:00  WARN 20004 --- [main] c.b.m.core.injector.DefaultSqlInjector   : class com.mgr.thoseyears0_1.domain.Order ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023-04-12T08:57:55.698+08:00  INFO 20004 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Started OrderServiceTestCase in 1.632 seconds (process running for 2.337)
+2023-04-12T08:57:56.009+08:00  INFO 20004 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2023-04-12T08:58:15.945+08:00  INFO 24484 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Starting OrderServiceTestCase using Java 20 with PID 24484 (started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-12T08:58:15.946+08:00  INFO 24484 --- [main] c.m.t.service.impl.OrderServiceTestCase  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-12T08:58:17.331+08:00  INFO 24484 --- [main] c.m.t.service.impl.OrderServiceTestCase  : Started OrderServiceTestCase in 1.682 seconds (process running for 2.412)
+2023-04-12T08:58:17.713+08:00  INFO 24484 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-04-12T08:58:18.062+08:00  INFO 24484 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-04-12T08:58:18.065+08:00  INFO 24484 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-04-12T08:58:43.406+08:00  INFO 9440 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Starting ThoseYearsApplication using Java 20 with PID 9440 (E:\IDEA\ideaproject\ThoseYears0_1\target\classes started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-12T08:58:43.408+08:00  INFO 9440 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-12T08:58:43.947+08:00  INFO 9440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 82 (http)
+2023-04-12T08:58:43.953+08:00  INFO 9440 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-12T08:58:43.953+08:00  INFO 9440 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-12T08:58:44.001+08:00  INFO 9440 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-12T08:58:44.002+08:00  INFO 9440 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 562 ms
+2023-04-12T08:58:44.582+08:00  INFO 9440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 82 (http) with context path ''
+2023-04-12T08:58:44.587+08:00  INFO 9440 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Started ThoseYearsApplication in 1.489 seconds (process running for 1.869)
+2023-04-12T08:59:40.903+08:00  INFO 9440 --- [http-nio-82-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-12T08:59:40.903+08:00  INFO 9440 --- [http-nio-82-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-12T08:59:40.903+08:00  INFO 9440 --- [http-nio-82-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-12T08:59:40.954+08:00  INFO 9440 --- [http-nio-82-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-04-12T09:02:13.088+08:00  INFO 9440 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-04-12T09:02:13.090+08:00  INFO 9440 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-04-12T09:02:18.788+08:00  INFO 15320 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Starting ThoseYearsApplication using Java 20 with PID 15320 (E:\IDEA\ideaproject\ThoseYears0_1\target\classes started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-12T09:02:18.789+08:00  INFO 15320 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-12T09:02:19.361+08:00  INFO 15320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 82 (http)
+2023-04-12T09:02:19.368+08:00  INFO 15320 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-12T09:02:19.368+08:00  INFO 15320 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-12T09:02:19.415+08:00  INFO 15320 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-12T09:02:19.415+08:00  INFO 15320 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 599 ms
+2023-04-12T09:02:19.970+08:00  INFO 15320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 82 (http) with context path ''
+2023-04-12T09:02:19.976+08:00  INFO 15320 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Started ThoseYearsApplication in 1.46 seconds (process running for 1.859)
+2023-04-12T09:02:24.947+08:00  INFO 15320 --- [http-nio-82-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-12T09:02:24.947+08:00  INFO 15320 --- [http-nio-82-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-12T09:02:24.947+08:00  INFO 15320 --- [http-nio-82-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-12T09:02:24.995+08:00  INFO 15320 --- [http-nio-82-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-04-12T09:05:52.307+08:00  INFO 15320 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-04-12T09:05:52.307+08:00  INFO 15320 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-04-12T09:05:55.592+08:00  INFO 26012 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Starting ThoseYearsApplication using Java 20 with PID 26012 (E:\IDEA\ideaproject\ThoseYears0_1\target\classes started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-12T09:05:55.592+08:00  INFO 26012 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-12T09:05:56.163+08:00  INFO 26012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 82 (http)
+2023-04-12T09:05:56.163+08:00  INFO 26012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-12T09:05:56.163+08:00  INFO 26012 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-12T09:05:56.210+08:00  INFO 26012 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-12T09:05:56.210+08:00  INFO 26012 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 586 ms
+2023-04-12T09:05:56.775+08:00  INFO 26012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 82 (http) with context path ''
+2023-04-12T09:05:56.780+08:00  INFO 26012 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Started ThoseYearsApplication in 1.451 seconds (process running for 1.83)
+2023-04-12T09:06:04.083+08:00  INFO 26012 --- [http-nio-82-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-12T09:06:04.083+08:00  INFO 26012 --- [http-nio-82-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-12T09:06:04.084+08:00  INFO 26012 --- [http-nio-82-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-12T09:06:04.117+08:00  INFO 26012 --- [http-nio-82-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-04-12T13:17:03.007+08:00  WARN 26012 --- [http-nio-82-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:17:12.584+08:00  WARN 26012 --- [http-nio-82-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:17:27.384+08:00  WARN 26012 --- [http-nio-82-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:17:33.434+08:00  WARN 26012 --- [http-nio-82-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:17:35.061+08:00  WARN 26012 --- [http-nio-82-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:17:39.578+08:00  WARN 26012 --- [http-nio-82-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:17:42.713+08:00  WARN 26012 --- [http-nio-82-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:17:46.241+08:00  WARN 26012 --- [http-nio-82-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:17:53.414+08:00  WARN 26012 --- [http-nio-82-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:18:13.741+08:00  WARN 26012 --- [http-nio-82-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:18:24.256+08:00  WARN 26012 --- [http-nio-82-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:19:11.929+08:00  WARN 26012 --- [http-nio-82-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:19:17.735+08:00  WARN 26012 --- [http-nio-82-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:19:22.294+08:00  WARN 26012 --- [http-nio-82-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:27:35.247+08:00  WARN 26012 --- [http-nio-82-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:27:48.670+08:00  WARN 26012 --- [http-nio-82-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:28:54.598+08:00  WARN 26012 --- [http-nio-82-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:28:57.352+08:00  WARN 26012 --- [http-nio-82-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:32:24.838+08:00  WARN 26012 --- [http-nio-82-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:36:42.987+08:00  WARN 26012 --- [http-nio-82-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:37:12.500+08:00  WARN 26012 --- [http-nio-82-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:46:26.474+08:00  WARN 26012 --- [http-nio-82-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:46:30.025+08:00  WARN 26012 --- [http-nio-82-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T13:58:03.002+08:00  WARN 26012 --- [http-nio-82-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T14:07:22.573+08:00  WARN 26012 --- [http-nio-82-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T14:07:24.293+08:00  WARN 26012 --- [http-nio-82-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T14:08:23.055+08:00  WARN 26012 --- [http-nio-82-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T14:12:21.651+08:00  WARN 26012 --- [http-nio-82-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T14:57:48.938+08:00  WARN 26012 --- [http-nio-82-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
+2023-04-12T14:57:53.885+08:00  WARN 26012 --- [http-nio-82-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: ":logistics_id"]
