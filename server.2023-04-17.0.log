@@ -1,0 +1,15 @@
+2023-04-17T12:30:46.179+08:00  INFO 18920 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Starting ThoseYearsApplication using Java 20 with PID 18920 (E:\IDEA\ideaproject\ThoseYears0_1\target\classes started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-17T12:30:46.182+08:00  INFO 18920 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-17T12:30:46.925+08:00  INFO 18920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 82 (http)
+2023-04-17T12:30:46.931+08:00  INFO 18920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-17T12:30:46.932+08:00  INFO 18920 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-17T12:30:46.999+08:00  INFO 18920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-17T12:30:46.999+08:00  INFO 18920 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 788 ms
+2023-04-17T12:30:47.659+08:00  INFO 18920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 82 (http) with context path ''
+2023-04-17T12:30:47.665+08:00  INFO 18920 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Started ThoseYearsApplication in 1.876 seconds (process running for 3.38)
+2023-04-17T16:26:52.977+08:00  INFO 18920 --- [http-nio-82-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-17T16:26:52.993+08:00  INFO 18920 --- [http-nio-82-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-17T16:26:53.008+08:00  INFO 18920 --- [http-nio-82-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2023-04-17T16:26:53.087+08:00  INFO 18920 --- [http-nio-82-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-04-17T22:31:52.153+08:00  INFO 18920 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-04-17T22:31:52.168+08:00  INFO 18920 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

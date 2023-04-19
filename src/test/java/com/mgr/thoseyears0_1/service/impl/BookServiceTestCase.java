@@ -21,7 +21,8 @@ public class BookServiceTestCase {
         book.setName("impl test");
         book.setType("impl test");
         book.setDescription("impl test");
-        bookserviceimpl.save(book);
+        boolean save = bookserviceimpl.save(book);
+        System.out.println(save);
     }
     @Test
     public void getPage111(){

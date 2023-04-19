@@ -12,7 +12,7 @@ public class Logistics {
     private String orderTime;
     private String deliveryTime;
     private String logisticsAddr;
-    private Integer orderId;
+    private String orderId;
     private Integer userId;
 
 }

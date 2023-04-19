@@ -13,8 +13,8 @@ public class AddressServiceTestCase {
     private IAddressService iAddressService;
     @Test
     public void getAddress(){
-        Address address = iAddressService.getById(1);
-        System.out.println(address);
+        Address address = iAddressService.getById(3);
+        System.out.println("address: "+address);
     }
 
 }
