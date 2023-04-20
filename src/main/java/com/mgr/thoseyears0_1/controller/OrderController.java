@@ -1,15 +1,14 @@
 package com.mgr.thoseyears0_1.controller;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.mgr.thoseyears0_1.controller.utils.LogisticsUtils;
 import com.mgr.thoseyears0_1.controller.utils.OrderUtils;
 import com.mgr.thoseyears0_1.controller.utils.R;
 import com.mgr.thoseyears0_1.domain.Address;
+import com.mgr.thoseyears0_1.domain.Book;
 import com.mgr.thoseyears0_1.domain.Order;
-import com.mgr.thoseyears0_1.domain.Logistics;
 import com.mgr.thoseyears0_1.domain.Payment;
 import com.mgr.thoseyears0_1.service.IAddressService;
-import com.mgr.thoseyears0_1.service.ILogisticsService;
 import com.mgr.thoseyears0_1.service.IOrderService;
 import com.mgr.thoseyears0_1.service.IPaymentService;
 import lombok.extern.slf4j.Slf4j;
@@ -23,24 +22,28 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin
 public class OrderController {
     @Autowired
-    private ILogisticsService iLogisticsService;
-    @Autowired
     private IOrderService iOrderService;
     @Autowired
     private IAddressService iAddressService;
     @Autowired
-
     private IPaymentService iPaymentService;
+    @GetMapping("{currentPage}/{pageSize}")
+    public R getPage(@PathVariable int currentPage, @PathVariable int pageSize, Integer userId){
+        System.out.println(userId);
+        Order order = new Order();
+        order.setOrderUserid(userId);
+        IPage<Order> page = iOrderService.getPage(currentPage, pageSize,order);
+        //如果当前页码值大于总页码，重新执行查询操作，使用最大页码值
+        if ( currentPage > page.getPages()){
+            page = iOrderService.getPage((int) page.getPages(), pageSize,order);
+        }
+        return new R(true,page);
+    }
     @PostMapping
     public R save(@RequestBody OrderUtils orderUtils){
-        String strAddrsend = selectstr(iAddressService);
-        String strAddrcons = selectstr(iAddressService);
-        String strOrderId = selectstr(iOrderService);
-//        System.out.println(orderUtils);
-//        System.out.println(orderUtils.getOrder());
-//        System.out.println(orderUtils.getAddressSender());
-//        System.out.println(orderUtils.getAddressConsignee());
-//        System.out.println(orderUtils.getPayment());
+        String strAddrsend = serviceselect(iAddressService);
+        String strAddrcons = serviceselect(iAddressService);
+        String strOrderId = serviceselect(iOrderService);
         //数据整理
         Order order = orderUtils.getOrder();
         order.setOrderId(strOrderId);
@@ -55,10 +58,7 @@ public class OrderController {
 
         Payment payment = orderUtils.getPayment();
         payment.setOrderId(strOrderId);
-//        System.out.println(order);
-//        System.out.println(addressSender);
-//        System.out.println(addressConsignee);
-//        System.out.println(payment);
+
         if ( iAddressService.save(addressSender) && iAddressService.save(addressConsignee)
                 && iOrderService.save(order) && iPaymentService.save(payment) ){
             log.info("success");
@@ -67,7 +67,8 @@ public class OrderController {
         log.info("error");
         return new R(false);
     }
-    private String selectstr(IService iService){
+    //方法
+    private String serviceselect(IService iService){
         String str = RandomStringUtils.randomNumeric(30);
         int count = 0;
         while (iService.getById(str)!=null) {

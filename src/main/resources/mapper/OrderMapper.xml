@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.mgr.thoseyears0_1.dao.OrderDao">
+    <select id="selectOrderPageMap" resultType="java.util.Map">
+        SELECT
+            *
+        FROM
+            tbl_order torder
+        LEFT JOIN tbl_address taddress1 ON torder.order_sender = taddress1.addr_id
+        LEFT JOIN tbl_address taddress2 ON torder.order_consignee = taddress2.addr_id
+        LEFT JOIN tbl_payment pay ON torder.order_id = pay.order_id
+        ${ew.customSqlSegment}
+    </select>
+</mapper>
