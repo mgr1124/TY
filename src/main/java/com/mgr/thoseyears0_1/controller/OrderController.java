@@ -8,6 +8,7 @@ import com.mgr.thoseyears0_1.domain.Address;
 import com.mgr.thoseyears0_1.domain.Book;
 import com.mgr.thoseyears0_1.domain.Order;
 import com.mgr.thoseyears0_1.domain.Payment;
+import com.mgr.thoseyears0_1.domain.dto.OrderDto;
 import com.mgr.thoseyears0_1.service.IAddressService;
 import com.mgr.thoseyears0_1.service.IOrderService;
 import com.mgr.thoseyears0_1.service.IPaymentService;
@@ -15,6 +16,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.Map;
 
 @Slf4j
 @RestController
@@ -28,14 +31,16 @@ public class OrderController {
     @Autowired
     private IPaymentService iPaymentService;
     @GetMapping("{currentPage}/{pageSize}")
-    public R getPage(@PathVariable int currentPage, @PathVariable int pageSize, Integer userId){
-        System.out.println(userId);
-        Order order = new Order();
-        order.setOrderUserid(userId);
-        IPage<Order> page = iOrderService.getPage(currentPage, pageSize,order);
+    public R getPage(@PathVariable int currentPage, @PathVariable int pageSize, OrderDto orderDto){
+//
+//        System.out.println("userId"+orderDto.getOrderUserid());
+//        System.out.println("name"+orderDto.getConsigneeaddrLinkman());
+//        System.out.println("order"+orderDto.getOrderId());
+//        System.out.println("getOrderType"+orderDto.getOrderType());
+        IPage<Map<String, Object>> page = iOrderService.getPageOrderDto(currentPage, pageSize,orderDto);
         //如果当前页码值大于总页码，重新执行查询操作，使用最大页码值
         if ( currentPage > page.getPages()){
-            page = iOrderService.getPage((int) page.getPages(), pageSize,order);
+            page = iOrderService.getPageOrderDto((int) page.getPages(), pageSize,orderDto);
         }
         return new R(true,page);
     }

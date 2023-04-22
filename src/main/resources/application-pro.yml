@@ -5,7 +5,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/dash
-    username: root
+    username: dash
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
 mybatis-plus:
