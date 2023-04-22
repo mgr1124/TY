@@ -3,12 +3,17 @@
 <mapper namespace="com.mgr.thoseyears0_1.dao.OrderDao">
     <select id="selectOrderPageMap" resultType="java.util.Map">
         SELECT
-            *
+            torder.order_id,torder.order_userid,torder.order_sender,torder.order_consignee,torder.order_type
+             ,torder.order_weight,torder.order_volume,torder.order_cost,torder.order_state,torder.order_sendtype
+             ,torder.order_pickuptime,torder.order_couriernumber,torder.order_commodity,torder.order_desc
+             ,taddress1.addr_id as senderaddr_id,taddress1.user_id as senderuser_id,taddress1.addr_linkman as senderaddr_linkman,taddress1.addr_telephone as senderaddr_telephone,taddress1.addr_des as senderaddr_des,taddress1.addr_tag as senderaddr_tag
+             ,taddress2.addr_id as consigneeaddr_id,taddress2.user_id as consigneeuser_id,taddress2.addr_linkman as consigneeaddr_linkman,taddress2.addr_telephone as consigneeaddr_telephone,taddress2.addr_des as consigneeaddr_des,taddress2.addr_tag as consigneeaddr_tag
+             ,pay.pay_id, pay.pay_type, pay.pay_time, pay.pay_cost
         FROM
             tbl_order torder
-        LEFT JOIN tbl_address taddress1 ON torder.order_sender = taddress1.addr_id
-        LEFT JOIN tbl_address taddress2 ON torder.order_consignee = taddress2.addr_id
-        LEFT JOIN tbl_payment pay ON torder.order_id = pay.order_id
+                LEFT JOIN tbl_address taddress1 ON torder.order_sender = taddress1.addr_id
+                LEFT JOIN tbl_address taddress2 ON torder.order_consignee = taddress2.addr_id
+                LEFT JOIN tbl_payment pay ON torder.order_id = pay.order_id
         ${ew.customSqlSegment}
     </select>
 </mapper>

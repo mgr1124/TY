@@ -46,6 +46,7 @@ public class OrderServiceTestCase {
 
         IPage<Map<String, Object>> mapIPage = orderDao.selectOrderPageMap(page, queryWrapper);
         List<Map<String, Object>> records = mapIPage.getRecords();
+//        System.out.println(mapIPage);
         records.forEach(System.out::println);
         System.out.println("总数是:"+mapIPage.getTotal());
         System.out.println("共有"+mapIPage.getPages()+"页");
