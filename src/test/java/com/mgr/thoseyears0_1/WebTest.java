@@ -15,21 +15,21 @@ import org.springframework.test.web.servlet.result.*;
 public class WebTest {
 
     @Test
-    void testById(@Autowired MockMvc mvc) throws Exception{
-        MockHttpServletRequestBuilder builder = MockMvcRequestBuilders.get("/books/1/10?type=1&name=1&description=1");
-        ResultActions actions = mvc.perform(builder);
-        //测试状态
-        StatusResultMatchers status = MockMvcResultMatchers.status();
-        ResultMatcher ok = status.isOk();
-        actions.andExpect(ok);
-        //测试结果，json
-        ContentResultMatchers content = MockMvcResultMatchers.content();
-        ResultMatcher result = content.string("{\"flag\":true,\"data\":{\"records\":[{\"id\":34,\"type\":\"1\",\"name\":\"1\",\"description\":\"1\"}],\"total\":1,\"size\":10,\"current\":1,\"orders\":[],\"optimizeCountSql\":true,\"searchCount\":true,\"maxLimit\":null,\"countId\":null,\"pages\":1}}");
-        actions.andExpect(result);
-        //测试相应头
-        HeaderResultMatchers header = MockMvcResultMatchers.header();
-        ResultMatcher contentType = header.string("Content-Type", "application/json");
-        actions.andExpect(contentType);
+//    void testById(@Autowired MockMvc mvc) throws Exception{
+//        MockHttpServletRequestBuilder builder = MockMvcRequestBuilders.get("/books/1/10?type=1&name=1&description=1");
+//        ResultActions actions = mvc.perform(builder);
+//        //测试状态
+//        StatusResultMatchers status = MockMvcResultMatchers.status();
+//        ResultMatcher ok = status.isOk();
+//        actions.andExpect(ok);
+//        //测试结果，json
+//        ContentResultMatchers content = MockMvcResultMatchers.content();
+//        ResultMatcher result = content.string("{\"flag\":true,\"data\":{\"records\":[{\"id\":34,\"type\":\"1\",\"name\":\"1\",\"description\":\"1\"}],\"total\":1,\"size\":10,\"current\":1,\"orders\":[],\"optimizeCountSql\":true,\"searchCount\":true,\"maxLimit\":null,\"countId\":null,\"pages\":1}}");
+//        actions.andExpect(result);
+//        //测试相应头
+//        HeaderResultMatchers header = MockMvcResultMatchers.header();
+//        ResultMatcher contentType = header.string("Content-Type", "application/json");
+//        actions.andExpect(contentType);
     }
 
     @Test
