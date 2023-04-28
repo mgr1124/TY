@@ -1,15 +1,49 @@
-2023-04-22T15:50:59.500+08:00  INFO 23060 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Starting ThoseYearsApplication using Java 20 with PID 23060 (E:\IDEA\ideaproject\ThoseYears0_1\target\classes started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
-2023-04-22T15:50:59.504+08:00  INFO 23060 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : The following 3 profiles are active: "dev", "devDB", "devother"
-2023-04-22T15:51:00.275+08:00  INFO 23060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 82 (http)
-2023-04-22T15:51:00.282+08:00  INFO 23060 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-22T15:51:00.283+08:00  INFO 23060 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
-2023-04-22T15:51:00.335+08:00  INFO 23060 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-22T15:51:00.336+08:00  INFO 23060 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 785 ms
-2023-04-22T15:51:00.994+08:00  INFO 23060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 82 (http) with context path ''
-2023-04-22T15:51:00.999+08:00  INFO 23060 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Started ThoseYearsApplication in 1.8 seconds (process running for 3.395)
-2023-04-22T21:39:06.591+08:00  INFO 23060 --- [http-nio-82-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-22T21:39:06.593+08:00  INFO 23060 --- [http-nio-82-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-22T21:39:06.603+08:00  INFO 23060 --- [http-nio-82-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
-2023-04-22T21:39:06.778+08:00  INFO 23060 --- [http-nio-82-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2023-04-22T23:23:00.533+08:00  INFO 23060 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
-2023-04-22T23:23:00.533+08:00  INFO 23060 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-04-25T17:24:37.779+08:00  INFO 20848 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Starting ThoseYearsApplication using Java 20 with PID 20848 (E:\IDEA\ideaproject\ThoseYears0_1\target\classes started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-25T17:24:37.782+08:00  INFO 20848 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-25T17:24:38.178+08:00  INFO 20848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-25T17:24:38.180+08:00  INFO 20848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-25T17:24:38.205+08:00  INFO 20848 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-04-25T17:24:38.544+08:00  INFO 20848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-25T17:24:38.551+08:00  INFO 20848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-25T17:24:38.551+08:00  INFO 20848 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-25T17:24:38.606+08:00  INFO 20848 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-25T17:24:38.606+08:00  INFO 20848 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 799 ms
+2023-04-25T17:24:39.375+08:00  INFO 20848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-25T17:24:39.380+08:00  INFO 20848 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Started ThoseYearsApplication in 1.905 seconds (process running for 2.399)
+2023-04-25T17:59:03.832+08:00  INFO 20848 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-25T17:59:03.832+08:00  INFO 20848 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-25T17:59:03.833+08:00  INFO 20848 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-25T17:59:03.953+08:00  INFO 20848 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-04-25T19:13:10.249+08:00  INFO 20848 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-04-25T19:13:10.249+08:00  INFO 20848 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-04-25T21:57:17.727+08:00  INFO 13808 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Starting ThoseYearsApplication using Java 20 with PID 13808 (E:\IDEA\ideaproject\ThoseYears0_1\target\classes started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-25T21:57:17.728+08:00  INFO 13808 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-25T21:57:18.068+08:00  INFO 13808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-25T21:57:18.070+08:00  INFO 13808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-25T21:57:18.088+08:00  INFO 13808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-04-25T21:57:18.420+08:00  INFO 13808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-25T21:57:18.425+08:00  INFO 13808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-25T21:57:18.426+08:00  INFO 13808 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-25T21:57:18.473+08:00  INFO 13808 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-25T21:57:18.473+08:00  INFO 13808 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 717 ms
+2023-04-25T21:57:19.208+08:00  INFO 13808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-25T21:57:19.215+08:00  INFO 13808 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Started ThoseYearsApplication in 1.789 seconds (process running for 2.232)
+2023-04-25T21:58:00.437+08:00  INFO 13808 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-25T21:58:00.437+08:00  INFO 13808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-25T21:58:00.438+08:00  INFO 13808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-25T21:59:53.605+08:00  INFO 13808 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-04-25T23:09:56.677+08:00  INFO 13808 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-04-25T23:09:56.682+08:00  INFO 13808 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-04-28T11:46:21.928+08:00  INFO 18584 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Starting ThoseYearsApplication using Java 20 with PID 18584 (E:\IDEA\ideaproject\ThoseYears0_1\target\classes started by MGR in E:\IDEA\ideaproject\ThoseYears0_1)
+2023-04-28T11:46:21.929+08:00  INFO 18584 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : The following 3 profiles are active: "dev", "devDB", "devother"
+2023-04-28T11:46:22.360+08:00  INFO 18584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-28T11:46:22.362+08:00  INFO 18584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-28T11:46:22.384+08:00  INFO 18584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-04-28T11:46:22.801+08:00  INFO 18584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 82 (http)
+2023-04-28T11:46:22.807+08:00  INFO 18584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T11:46:22.807+08:00  INFO 18584 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-28T11:46:22.872+08:00  INFO 18584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T11:46:22.873+08:00  INFO 18584 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 914 ms
+2023-04-28T11:46:23.738+08:00  INFO 18584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 82 (http) with context path ''
+2023-04-28T11:46:23.745+08:00  INFO 18584 --- [main] c.m.thoseyears0_1.ThoseYearsApplication  : Started ThoseYearsApplication in 2.139 seconds (process running for 2.709)
+2023-04-28T11:46:29.430+08:00  INFO 18584 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...

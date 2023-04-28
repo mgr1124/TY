@@ -6,6 +6,10 @@ spring:
     username: root
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
+  data:
+    redis:
+      port: 6379
+      host: localhost
 mybatis-plus:
   global-config:
     db-config:

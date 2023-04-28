@@ -1,6 +1,6 @@
 #开发环境
 server:
-  port: 82
+  port: 8080
 #log
 logging:
   #设置分组
